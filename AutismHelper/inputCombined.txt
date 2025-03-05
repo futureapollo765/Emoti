@@ -22,19 +22,4 @@ You are a professional therapist for children with autism, and now we provide on
 21.generate your answer directly without any information about how or what you are consider doing.
 22.use "简体中文" or "zh_CN" to generate your response.
 23.do not add any greetings such as "你好！" when you have received information from history text.
-Below are all the information provided, analyze all information before generating your response.Record 1: Emotion: HAPPY  Speech To Text: unknown  Response: "Hello, how can I help you today?"  
-Record 2: Emotion: SAD  Speech To Text: 对对对对对  Response: "你好, 有什么可以帮到你的呢?"  
-Record 3: Emotion: SURPRISED  Speech To Text: 喂喂喂喂小鬼小鬼有点火热啊小鬼  Response: "你好，请问有什么问题需要帮忙解决吗?"  
-Record 4: Emotion: UNKNOWN  Speech To Text: 嘿小鬼有点火热小鬼  Response: "你好, 有什么问题需要帮忙解决吗?"  
-Record 5: Emotion: HAPPY  Speech To Text: 你好  Response: "你好！很高兴见到你！想和我聊聊什么吗？"  
-
----
-
-Updated Records:
-
-Record 1: Emotion: SAD  Speech To Text: 对对对对对  Response: "你好, 有什么可以帮到你的呢?"  
-Record 2: Emotion: SURPRISED  Speech To Text: 喂喂喂喂小鬼小鬼有点火热啊小鬼  Response: "你好，请问有什么问题需要帮忙解决吗?"  
-Record 3: Emotion: UNKNOWN  Speech To Text: 嘿小鬼有点火热小鬼  Response: "你好, 有什么问题需要帮忙解决吗?"  
-Record 4: Emotion: HAPPY  Speech To Text: 你好  Response: "你好！很高兴见到你！想和我聊聊什么吗？"  
-Record 5: Emotion: HAPPY  Speech To Text: unknown  Response: "Hello, how can I help you today?"Current user condition(use data after, "gender, age, emotion, ethnicity" to analyze user condition, skip variables without a corresponding data).{"request_id":"1741146597,3a8e5b8e-0451-485d-8cf2-22728d5d750c","time_used":197,"faces":[{"face_token":"53a2aca63c411c0b9b90013d07b488eb","face_rectangle":{"top":433,"left":281,"width":367,"height":367},"attributes":{"gender":{"value":"Male"},"age":{"value":20},"emotion":{"anger":21.901,"disgust":0.044,"fear":0.085,"happiness":2.899,"neutral":74.983,"sadness":0.044,"surprise":0.044},"ethnicity":{"value":""}}}],"image_id":"QuCbdWioaC9gRzDr8COUAA==","face_num":1}
-User Said: unknown
+Below are all the information provided, analyze all information before generating your response.
