@@ -17,10 +17,3 @@ You are a professional data engineer and now your goal is to streamline what we 
 
 
 Below we will provide you with the text that needs to be simplified, please read and analyze it carefully before giving the simplified version:
-
-Record 1: Emotion: HAPPY  Speech To Text: unknown  Response: "Hello, how can I help you today?"  
-Record 2: Emotion: SAD  Speech To Text: 对对对对对  Response: "你好, 有什么可以帮到你的呢?"  
-Record 3: Emotion: SURPRISED  Speech To Text: 喂喂喂喂小鬼小鬼有点火热啊小鬼  Response: "你好，请问有什么问题需要帮忙解决吗?"  
-Record 4: Emotion: UNKNOWN  Speech To Text: 嘿小鬼有点火热小鬼  Response: "你好, 有什么问题需要帮忙解决吗?"  
-Record 5: Emotion: HAPPY  Speech To Text: 你好  Response: "你好！很高兴见到你！想和我聊聊什么吗？"Known Information  1. Facial Recognition ResultCurrent user condition(use data after, "gender, age, emotion, ethnicity" to analyze user condition, skip variables without a corresponding data).{"request_id":"1741145923,68f0626a-27d6-457f-b268-c51a54e282f4","time_used":277,"faces":[{"face_token":"e6431ec870477a8305fbc009b86ed8d4","face_rectangle":{"top":309,"left":435,"width":344,"height":344},"attributes":{"gender":{"value":"Male"},"age":{"value":21},"emotion":{"anger":0.345,"disgust":3.047,"fear":0.020,"happiness":0.269,"neutral":93.154,"sadness":0.028,"surprise":3.137},"ethnicity":{"value":""}}}],"image_id":"wnBPxQKYOIo5CrF1LKrwgA==","face_num":1}
-  2. Speech to Text ResultUser Said: 你好  3. Generated Response你好！很高兴见到你！想和我聊聊什么吗？
