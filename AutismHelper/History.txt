@@ -1,0 +1,15 @@
+Record 1: Emotion: HAPPY  Speech To Text: unknown  Response: "Hello, how can I help you today?"  
+Record 2: Emotion: SAD  Speech To Text: 对对对对对  Response: "你好, 有什么可以帮到你的呢?"  
+Record 3: Emotion: SURPRISED  Speech To Text: 喂喂喂喂小鬼小鬼有点火热啊小鬼  Response: "你好，请问有什么问题需要帮忙解决吗?"  
+Record 4: Emotion: UNKNOWN  Speech To Text: 嘿小鬼有点火热小鬼  Response: "你好, 有什么问题需要帮忙解决吗?"  
+Record 5: Emotion: HAPPY  Speech To Text: 你好  Response: "你好！很高兴见到你！想和我聊聊什么吗？"  
+
+---
+
+Updated Records:
+
+Record 1: Emotion: SAD  Speech To Text: 对对对对对  Response: "你好, 有什么可以帮到你的呢?"  
+Record 2: Emotion: SURPRISED  Speech To Text: 喂喂喂喂小鬼小鬼有点火热啊小鬼  Response: "你好，请问有什么问题需要帮忙解决吗?"  
+Record 3: Emotion: UNKNOWN  Speech To Text: 嘿小鬼有点火热小鬼  Response: "你好, 有什么问题需要帮忙解决吗?"  
+Record 4: Emotion: HAPPY  Speech To Text: 你好  Response: "你好！很高兴见到你！想和我聊聊什么吗？"  
+Record 5: Emotion: HAPPY  Speech To Text: unknown  Response: "Hello, how can I help you today?"

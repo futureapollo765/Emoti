@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <script>
+
+    function LoadTextFile(filePath, elementID){
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', filePath, true);
+      //xhr.responseText(filePath.textContent);
+
+      xhr.onreadystatechange = function(){
+        if(xhr.readyState ===  4 && xhr.status === 200){
+          document.getElementById(elementID).textContent = xhr.responseText;
+        }
+      };
+      xhr.send();
+    }
+    LoadTextFile("test.txt", 'content')
+  </script>
+  <style>
+    img {
+      bottom:-20%;
+      margin:0;
+      width:100%;
+      position:fixed;
+      
+    }
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      color:#fff;
+
+    }
+    body {
+      background-image:url("/Library/WebServer/Documents/AutismHelper/WebPageDesign/chat/playground.jpg");
+      font:Sans-Serif;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      font:Sans-Serif;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px) saturate(180%);
+      -webkit-backdrop-filter: blur(10px) saturate(180%) brightness(0.5);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      width:800px;
+      text-align: left;
+      text-align:top;
+      box-shadow: 30 30 50px rgba(32, 32, 32, 0.1);
+      position:fixed;
+      bottom:10px;
+      border-style:solid;
+      border-color:rgb(205, 205, 205);
+      border-width:1px;
+    }
+
+    .card h1 {
+      color: #fff;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .card p {
+      color: #ddd;
+    }
+  </style>
+</head> 
+<body>
+  <img src="pic.jpg"></img>
+  <div class="card">
+    <h1>你好！我是小奚，今天想聊些什么吗？</h1>
+    <p><pre id="content"></pre></p>
+  </div>
+</body>
+</html>
+

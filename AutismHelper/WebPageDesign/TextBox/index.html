@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对话框示例</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #background {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('background.jpg');
+            background-size: cover;
+        }
+        .dialog {
+            position: absolute;
+            width: 45%;
+            height: auto;
+            background: rgba(0, 0, 0, 0.8); /* 深色背景 */
+            color: white; /* 白色文字 */
+            padding: 20px;
+            border-radius: 10px;
+            overflow-y: auto;
+            max-height: 80%;
+        }
+        #leftDialog {
+            top: 10%;
+            left: 5%;
+        }
+        #rightDialog {
+            top: 10%;
+            right: 5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <div id="leftDialog" class="dialog"></div>
+        <div id="rightDialog" class="dialog"></div>
+    </div>
+    <script>
+        console.log('HTML loaded');
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
